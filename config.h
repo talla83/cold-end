@@ -36,7 +36,7 @@
 // max_flow_rate 500 = 18,5 rpm (1/16 microstepping)
 // max_flow_rate 1000 = 9,25 rpm (1/16 microstepping)
 // max_flow_rate 3125 = 3,00 rpm (1/16 microstepping)
-#define max_flow_rate 500                 // Maximum coolant flow rate (see table above)
+#define max_flow_rate 500UL                 // Maximum coolant flow rate (see table above)
 #define fast_flow_rate 125                  // Fast mode flow rate value 100= 93,75rpm /125=74rpm / 250=37rpm
 #define spit_flow_rate 125                  // Spit mode flow rate value 100= 93,75rpm /125=74rpm / 250=37rpm
 #define spit_min_time 1000                  // Spit mode minimum time in milliseconds
